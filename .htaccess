@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteBase /
+RewriteRule ^server/(.*)?$ http://127.0.0.1:5001/$1 [P,L]
+
+PassengerNodejs /home/cobnode/.nvm/versions/node/v12.18.3/bin/node

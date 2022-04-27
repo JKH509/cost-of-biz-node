@@ -1,0 +1,13 @@
+{
+  "name": "cob-node.greenjeans509.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "passenger_startup_file bin/www"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
